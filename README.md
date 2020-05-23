@@ -15,7 +15,7 @@ Minimax - Uses a limited depth minimax search with alpha-beta pruning to get opt
 ## Sample Code:
 
 This is how you run a simple human vs computer game:
-```
+```python
 import chess_manager
 from players import player_human, player_minimax
 
@@ -28,7 +28,7 @@ cm.play(is_displayed=True, delay=0)
 
 
 And here is a computer vs computer game:
-```
+```python
 import chess_manager
 from players import player_minimax
  
@@ -42,7 +42,7 @@ cm.play(is_displayed=True, delay=0)
 
 
 Lastly, computer vs random move generator:
-```
+```python
 import chess_manager
 from players import player_minimax, player_random
 
